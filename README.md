@@ -8,10 +8,15 @@ I'm using mongoengine.
 ## Installation and Usage
 #### Instalation
 virtualenv env
+
 source env/bin/activate
+
 cd sample_project
+
 pip install -r requirements.txt
+
 python manage.py migrate
+
 
 #### Usage
 python manage.py runserver
